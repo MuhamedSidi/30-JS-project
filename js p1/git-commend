@@ -1,0 +1,27 @@
+1) git init : 
+        utiliser pour la initialisation de notre projet . 
+2) coecter avec le username et le gmail : 
+        git config  --global user.name "MuhamedSidi"
+        git config --global user-email "msidiahmed698@gmail.com" 
+3) a jouter notre fichier : 
+            git add . 
+4)verifier le statu : 
+            git status 
+5) verifier le souvegard : 
+            git   commit -m "ajout du readme"
+6) comment cree un branch : 
+            git branch fichierjs 
+7) comment chnager vers un autre branche : 
+            git checkout fichierjs 
+8) comment lister tout les branche : 
+            git branch --list 
+9)git merge : 
+        l'idee principale du merge et d'avoir un branche pour 
+        tester notre traveille isolement , quand on termine le traveille on peut 
+        encore merge notre traveille initiale avec le master pricipale 
+        comme ca on va pas perdu notre travaille initiale et on na traviller et tester notre app . 
+        git  merge fichierjs . 
+10) apres on va ou github et on doit cree la meme reposotiry en github . 
+        apres on copier le commend pour pousher notre repository 
+11) apres la liaison entre notre github et  notre dossier on doit pusher notre a chaque fois nous cree un nouveau fichier : 
+            git push 
