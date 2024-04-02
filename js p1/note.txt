@@ -1,0 +1,41 @@
+1)
+fetch api : return a reprsentation of the entire http requset as a promise . 
+When you make a request to a server using fetch(), it returns a Promise that resolves to a Response object. This Response object contains information about the response, including its status, headers, and the actual response body.
+
+
+
+a promise is consiste of two thing : 
+resolve : if the request is ok . 
+reject :  if there is an erro . 
+async function: is a fucntion that treate diferentually from the other main fucniton , it will be called just after it completed . 
+
+await : mean wait untile you complete this request . 
+        you can use await only inside the  async function.
+exemple : 
+        async function giveAPI(){
+            let v1 = await fetch('https://weather.com/api...);
+            let v2 = 'done';
+        } 
+        console.log('hello');
+        giveAPI();
+        console.log('hello again')
+        //the output will be : 
+        hello 
+        hello again 
+        done 
+        this becouase javascript treat every code line with main time , so it will ignore the async fucntion 
+        until it return an answer then it will  go to the next lines of codes.. 
+        and this is the object of async fucntion . 
+====================================
+
+the process looks like this:
+
+You make a request to the server using fetch().
+fetch() returns a Promise that resolves to a Response object.
+You call response.json(), which returns a Promise that resolves to the JSON representation of the response body.
+You need to wait for this Promise to resolve to get the actual JSON data.
+Here's why we use await:
+
+By using await, we're telling JavaScript to pause execution at that line until the Promise resolves. 
+This allows us to work with the actual JSON data once it's available. 
+Without await, if you try to log or work with the response directly, it might not have been fully resolved yet, leading to unexpected results.

@@ -33,7 +33,17 @@
 <script>
     api_key = "398b182aac3c30a1f253f6448f8e090b";
     api_city = " ";
+    const apiUrl = "https://api.openweathermap.org/data/2.5/weather?q=madrid&appid=";
+ async function getWeather(){
+    let response = await fetch(apiUrl + api_key); 
+    data = await  response.json();
+    console.log(data);
+    document.querySelector(".city").innerHTML=data.name;
+    document.querySelector(".temp").innerHTML=data.main.temp + 'C';
 
-    const weather_req = https://api.openweathermap.org/data/2.5/weather?q=madrid&appid=$api_key ;
-    </script>
+ }
+ getWeather();
+
+ 
+ </script>
 </html>
