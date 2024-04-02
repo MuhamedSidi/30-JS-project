@@ -24,4 +24,4 @@
 10) apres on va ou github et on doit cree la meme reposotiry en github . 
         apres on copier le commend pour pousher notre repository 
 11) apres la liaison entre notre github et  notre dossier on doit pusher notre a chaque fois nous cree un nouveau fichier : 
-            git push 
+            git push orgin main . 
