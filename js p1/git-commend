@@ -67,7 +67,10 @@ To make it appear on GitHub, you need to push the branch to the remote repositor
 └─#     git push --set-upstream origin dev
 now the file in your latest brench and your mofication will be on a ceperate branch . 
 how to mergee ? merge mean copie all the files and configuration to other bracnhe wich is in this case the main . 
-
+===============
+one of the best files in git is get ignore : 
+.gitignore is a file that contain the names of the files that you dont want to push or to add .
+if a file name is in gitignore , it wont be pushed . 
 
 
 
