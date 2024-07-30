@@ -61,7 +61,12 @@ git checkout feature
 
 Creating and Switching to a New Branch 
 git checkout -b new-feature
- 
+=======================
+When you create a new branch locally using git checkout -b new-branch-name, it is only created on your local machine. 
+To make it appear on GitHub, you need to push the branch to the remote repository.
+└─#     git push --set-upstream origin dev
+now the file in your latest brench and your mofication will be on a ceperate branch . 
+how to mergee ? merge mean copie all the files and configuration to other bracnhe wich is in this case the main . 
 
 
 
