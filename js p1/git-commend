@@ -32,5 +32,19 @@ create a token
 and copy your token an ut it in this code :
 git remote set-url origin https://github.com/MuhamedSidi/test2.git
 after git : username & password . 
+========
+
+┌──(root㉿21006)-[/home/mo06/test2]
+└─# git remote set-url origin https://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@github.com/MuhamedSidi/test2.git
+
+                                                                                                                                     
+┌──(root㉿21006)-[/home/mo06/test2]
+└─# git push -u origin main
+=====
+after creating arepo and put all your code , you have to do this : 
+
+ git remote add origin https://github.com/MuhamedSidi/test2.git
+git branch -M main
+git push -u origin main 
 
  
