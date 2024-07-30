@@ -25,3 +25,12 @@
         apres on copier le commend pour pousher notre repository 
 11) apres la liaison entre notre github et  notre dossier on doit pusher notre a chaque fois nous cree un nouveau fichier : 
             git push orgin main . 
+Note : some time git change its method to authenticate it's , the new method is APT ( personnel access controle ).
+go to : 
+devloppers tool . 
+create a token 
+and copy your token an ut it in this code :
+git remote set-url origin https://github.com/MuhamedSidi/test2.git
+after git : username & password . 
+
+ 
