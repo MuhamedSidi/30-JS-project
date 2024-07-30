@@ -47,4 +47,23 @@ after creating arepo and put all your code , you have to do this :
 git branch -M main
 git push -u origin main 
 
+==========================
+git branche : 
+list remote brnache : 
+
+        git branch -r
+To list both local and remote branches:
+git branch -a
+ switch to another branch : 
+For example, if you want to switch to a branch named feature:
+
+git checkout feature
+
+Creating and Switching to a New Branch 
+git checkout -b new-feature
  
+
+
+
+
+
