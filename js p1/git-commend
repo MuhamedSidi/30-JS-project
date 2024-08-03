@@ -73,7 +73,8 @@ one of the best files in git is get ignore :
 if a file name is in gitignore , it wont be pushed . 
 ========
 one of the importatn thing to do is : 
-create a branch for test , onceyou ifnish your work you can pull it on another branch 
+create a branch for test , onceyou ifnish your work you can pull it on another branch .
+======
 
 
 
