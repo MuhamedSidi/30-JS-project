@@ -75,6 +75,11 @@ if a file name is in gitignore , it wont be pushed .
 one of the importatn thing to do is : 
 create a branch for test , onceyou ifnish your work you can pull it on another branch .
 ======
+you may see some problems for security issue and this may help you  : 
+git filter-branch --force --index-filter \
+  'git rm --cached --ignore-unmatch git-commend/git-commend' \
+  --prune-empty --tag-name-filter cat -- --all
+ =====
 
 
 
