@@ -71,7 +71,9 @@ how to mergee ? merge mean copie all the files and configuration to other bracnh
 one of the best files in git is get ignore : 
 .gitignore is a file that contain the names of the files that you dont want to push or to add .
 if a file name is in gitignore , it wont be pushed . 
-
+========
+one of the importatn thing to do is : 
+create a branch for test , onceyou ifnish your work you can pull it on another branch 
 
 
 
